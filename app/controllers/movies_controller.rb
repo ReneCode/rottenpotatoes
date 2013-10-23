@@ -9,8 +9,8 @@ class MoviesController < ApplicationController
   def index
     order_field = params[:order]
     @movies = Movie.all(:order => order_field)
-    @css_title = 'hilite' if order_field == "title"
-    @css_release_date = 'hilite' if order_field == "release_date"
+    @css_title = 'hilite' if order_field =~ /title/
+    @css_release_date = 'hilite' if order_field =~ /release_date/
     
   end
 
