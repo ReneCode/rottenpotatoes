@@ -8,10 +8,15 @@ class MoviesController < ApplicationController
 
   def index
     order_field = params[:order]
-    @movies = Movie.all(:order => order_field)
+    # ratings = { "P"=>1, "G"=1} .keys
+    ratings = params[:ratings]
+    @checked_ratings = Movie.valid_ratings
+    @checked_ratings = ratings.keys if (ratings != nil)
+    @movies = Movie.where(rating: @checked_ratings).all(:order => order_field)
     @css_title = 'hilite' if order_field =~ /title/
     @css_release_date = 'hilite' if order_field =~ /release_date/
-    
+    # get the list of all valid ratings from the model
+    @all_ratings = Movie.valid_ratings
   end
 
   def new
