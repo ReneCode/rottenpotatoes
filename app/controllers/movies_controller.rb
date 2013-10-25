@@ -14,6 +14,8 @@ class MoviesController < ApplicationController
     if order_field == nil
       # if no order set, get the last order from the session
       order_field = session[:order] 
+      # if there is no session-data, that make a default-value ('id')
+      order_field = 'id' if order_field == nil
       params[:order] = order_field
       redirect = true
     else
