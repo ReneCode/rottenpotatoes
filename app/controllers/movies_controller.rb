@@ -7,11 +7,15 @@ class MoviesController < ApplicationController
   end
 
   def index
+  
+    redirect = false
     # get sort order from the url-parameter
     order_field = params[:order]
     if order_field == nil
       # if no order set, get the last order from the session
       order_field = session[:order] 
+      params[:order] = order_field
+      redirect = true
     else
       # store order into the session for the next time
       session[:order] = order_field
@@ -25,10 +29,24 @@ class MoviesController < ApplicationController
       @checked_ratings = session[:ratings]
       # all ratingss on, if there is no rating stored
       @checked_ratings = Movie.valid_ratings if @checked_ratings == nil
+      # rebuild the ratings-hash for the redirect-params
+      para = {}
+      @checked_ratings.each do |r|
+        para[r] = 1
+      end
+      params[:ratings] = para
+      redirect = true
     else
       # store ratings for next call
       session[:ratings] = @checked_ratings
     end
+    if (redirect == true)
+      @tmp = params.inspect
+      puts "hallo:" + order_field.inspect    
+      flash.keep
+      redirect_to movies_path(params)
+    end
+
     # query to database
     @movies = Movie.where(rating: @checked_ratings).all(:order => order_field)
     @css_title = 'hilite' if order_field =~ /title/

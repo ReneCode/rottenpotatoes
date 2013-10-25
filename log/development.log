@@ -10572,3 +10572,2742 @@ Served asset /jquery_ujs.js - 304 Not Modified (0ms)
 
 Started GET "/assets/application.js?body=1" for 192.168.178.25 at 2013-10-25 10:59:18 +0200
 Served asset /application.js - 304 Not Modified (4ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&commit=Refresh" for 192.168.178.25 at 2013-10-25 11:09:46 +0200
+Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "commit"=>"Refresh"}
+Redirected to http://192.168.178.20:3000/movies
+  [1m[36mMovie Load (1.8ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY title[0m
+Completed 302 Found in 12ms (ActiveRecord: 1.8ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:09:47 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[35mMovie Load (1.9ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY title
+Completed 302 Found in 4ms (ActiveRecord: 1.9ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:09:47 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[36mMovie Load (1.7ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY title[0m
+Completed 302 Found in 3ms (ActiveRecord: 1.7ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:09:47 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[35mMovie Load (2.0ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY title
+Completed 302 Found in 3ms (ActiveRecord: 2.0ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:09:47 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[36mMovie Load (1.5ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY title[0m
+Completed 302 Found in 3ms (ActiveRecord: 1.5ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:09:47 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[35mMovie Load (1.8ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY title
+Completed 302 Found in 4ms (ActiveRecord: 1.8ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:09:47 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[36mMovie Load (2.1ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY title[0m
+Completed 302 Found in 4ms (ActiveRecord: 2.1ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:09:47 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[35mMovie Load (1.5ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY title
+Completed 302 Found in 3ms (ActiveRecord: 1.5ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:09:47 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[36mMovie Load (1.7ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY title[0m
+Completed 302 Found in 3ms (ActiveRecord: 1.7ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:09:47 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[35mMovie Load (1.5ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY title
+Completed 302 Found in 3ms (ActiveRecord: 1.5ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:09:47 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[36mMovie Load (1.9ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY title[0m
+Completed 302 Found in 4ms (ActiveRecord: 1.9ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:09:47 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[35mMovie Load (1.7ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY title
+Completed 302 Found in 3ms (ActiveRecord: 1.7ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:09:47 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[36mMovie Load (1.7ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY title[0m
+Completed 302 Found in 3ms (ActiveRecord: 1.7ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:09:47 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[35mMovie Load (1.6ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY title
+Completed 302 Found in 3ms (ActiveRecord: 1.6ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:09:47 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[36mMovie Load (1.6ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY title[0m
+Completed 302 Found in 3ms (ActiveRecord: 1.6ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:09:47 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[35mMovie Load (1.8ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY title
+Completed 302 Found in 4ms (ActiveRecord: 1.8ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:09:47 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[36mMovie Load (1.6ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY title[0m
+Completed 302 Found in 3ms (ActiveRecord: 1.6ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:09:47 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[35mMovie Load (2.3ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY title
+Completed 302 Found in 4ms (ActiveRecord: 2.3ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:09:47 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[36mMovie Load (1.8ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY title[0m
+Completed 302 Found in 3ms (ActiveRecord: 1.8ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:09:47 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[35mMovie Load (1.5ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY title
+Completed 302 Found in 3ms (ActiveRecord: 1.5ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:09:47 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[36mMovie Load (2.3ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY title[0m
+Completed 302 Found in 4ms (ActiveRecord: 2.3ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:09:52 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[35mMovie Load (1.7ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY title
+Completed 302 Found in 3ms (ActiveRecord: 1.7ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:09:52 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[36mMovie Load (2.1ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY title[0m
+Completed 302 Found in 4ms (ActiveRecord: 2.1ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:09:52 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[35mMovie Load (1.8ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY title
+Completed 302 Found in 3ms (ActiveRecord: 1.8ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:09:52 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[36mMovie Load (1.6ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY title[0m
+Completed 302 Found in 3ms (ActiveRecord: 1.6ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:09:52 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[35mMovie Load (1.2ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY title
+Completed 302 Found in 3ms (ActiveRecord: 1.2ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:09:52 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[36mMovie Load (1.4ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY title[0m
+Completed 302 Found in 3ms (ActiveRecord: 1.4ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:09:52 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[35mMovie Load (1.6ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY title
+Completed 302 Found in 3ms (ActiveRecord: 1.6ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:09:52 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[36mMovie Load (1.9ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY title[0m
+Completed 302 Found in 3ms (ActiveRecord: 1.9ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:09:52 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[35mMovie Load (4.2ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY title
+Completed 302 Found in 8ms (ActiveRecord: 4.2ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:09:52 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[36mMovie Load (2.3ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY title[0m
+Completed 302 Found in 4ms (ActiveRecord: 2.3ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:09:52 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[35mMovie Load (1.9ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY title
+Completed 302 Found in 4ms (ActiveRecord: 1.9ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:09:52 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[36mMovie Load (1.6ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY title[0m
+Completed 302 Found in 3ms (ActiveRecord: 1.6ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:09:52 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[35mMovie Load (1.7ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY title
+Completed 302 Found in 4ms (ActiveRecord: 1.7ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:09:52 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[36mMovie Load (1.7ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY title[0m
+Completed 302 Found in 3ms (ActiveRecord: 1.7ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:09:52 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[35mMovie Load (1.8ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY title
+Completed 302 Found in 3ms (ActiveRecord: 1.8ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:09:52 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[36mMovie Load (1.4ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY title[0m
+Completed 302 Found in 3ms (ActiveRecord: 1.4ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:09:52 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[35mMovie Load (1.7ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY title
+Completed 302 Found in 3ms (ActiveRecord: 1.7ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:09:52 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[36mMovie Load (1.8ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY title[0m
+Completed 302 Found in 3ms (ActiveRecord: 1.8ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:09:52 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[35mMovie Load (2.2ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY title
+Completed 302 Found in 4ms (ActiveRecord: 2.2ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:09:52 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[36mMovie Load (1.7ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY title[0m
+Completed 302 Found in 3ms (ActiveRecord: 1.7ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:09:52 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[35mMovie Load (1.7ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY title
+Completed 302 Found in 3ms (ActiveRecord: 1.7ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:09:54 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[36mMovie Load (1.3ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY title[0m
+Completed 302 Found in 3ms (ActiveRecord: 1.3ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:09:54 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[35mMovie Load (1.2ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY title
+Completed 302 Found in 3ms (ActiveRecord: 1.2ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:09:54 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[36mMovie Load (1.7ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY title[0m
+Completed 302 Found in 3ms (ActiveRecord: 1.7ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:09:54 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[35mMovie Load (1.9ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY title
+Completed 302 Found in 3ms (ActiveRecord: 1.9ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:09:54 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[36mMovie Load (1.8ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY title[0m
+Completed 302 Found in 3ms (ActiveRecord: 1.8ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:09:54 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[35mMovie Load (1.4ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY title
+Completed 302 Found in 3ms (ActiveRecord: 1.4ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:09:54 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[36mMovie Load (1.4ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY title[0m
+Completed 302 Found in 3ms (ActiveRecord: 1.4ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:09:54 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[35mMovie Load (2.1ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY title
+Completed 302 Found in 4ms (ActiveRecord: 2.1ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:09:54 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[36mMovie Load (2.8ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY title[0m
+Completed 302 Found in 5ms (ActiveRecord: 2.8ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:09:54 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[35mMovie Load (1.5ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY title
+Completed 302 Found in 3ms (ActiveRecord: 1.5ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:09:54 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[36mMovie Load (1.5ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY title[0m
+Completed 302 Found in 3ms (ActiveRecord: 1.5ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:09:54 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[35mMovie Load (1.6ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY title
+Completed 302 Found in 3ms (ActiveRecord: 1.6ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:09:54 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[36mMovie Load (2.4ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY title[0m
+Completed 302 Found in 4ms (ActiveRecord: 2.4ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:09:54 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[35mMovie Load (1.8ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY title
+Completed 302 Found in 3ms (ActiveRecord: 1.8ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:09:54 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[36mMovie Load (1.8ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY title[0m
+Completed 302 Found in 3ms (ActiveRecord: 1.8ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:09:54 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[35mMovie Load (2.3ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY title
+Completed 302 Found in 5ms (ActiveRecord: 2.3ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:09:54 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[36mMovie Load (1.7ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY title[0m
+Completed 302 Found in 4ms (ActiveRecord: 1.7ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:09:54 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[35mMovie Load (1.4ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY title
+Completed 302 Found in 3ms (ActiveRecord: 1.4ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:09:54 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[36mMovie Load (1.8ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY title[0m
+Completed 302 Found in 4ms (ActiveRecord: 1.8ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:09:54 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[35mMovie Load (1.7ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY title
+Completed 302 Found in 3ms (ActiveRecord: 1.7ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:09:55 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[36mMovie Load (1.6ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY title[0m
+Completed 302 Found in 3ms (ActiveRecord: 1.6ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:09:55 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[35mMovie Load (1.6ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY title
+Completed 302 Found in 3ms (ActiveRecord: 1.6ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:09:55 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[36mMovie Load (1.6ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY title[0m
+Completed 302 Found in 3ms (ActiveRecord: 1.6ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:09:55 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[35mMovie Load (1.8ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY title
+Completed 302 Found in 3ms (ActiveRecord: 1.8ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:09:55 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[36mMovie Load (1.3ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY title[0m
+Completed 302 Found in 3ms (ActiveRecord: 1.3ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:09:55 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[35mMovie Load (1.6ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY title
+Completed 302 Found in 3ms (ActiveRecord: 1.6ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:09:55 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[36mMovie Load (1.8ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY title[0m
+Completed 302 Found in 3ms (ActiveRecord: 1.8ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:09:55 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[35mMovie Load (1.5ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY title
+Completed 302 Found in 3ms (ActiveRecord: 1.5ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:09:55 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[36mMovie Load (1.8ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY title[0m
+Completed 302 Found in 3ms (ActiveRecord: 1.8ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:09:55 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[35mMovie Load (1.7ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY title
+Completed 302 Found in 3ms (ActiveRecord: 1.7ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:09:55 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[36mMovie Load (1.2ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY title[0m
+Completed 302 Found in 3ms (ActiveRecord: 1.2ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:09:55 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[35mMovie Load (1.9ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY title
+Completed 302 Found in 4ms (ActiveRecord: 1.9ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:09:55 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[36mMovie Load (2.0ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY title[0m
+Completed 302 Found in 4ms (ActiveRecord: 2.0ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:09:55 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[35mMovie Load (1.4ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY title
+Completed 302 Found in 3ms (ActiveRecord: 1.4ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:09:55 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[36mMovie Load (1.7ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY title[0m
+Completed 302 Found in 3ms (ActiveRecord: 1.7ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:09:55 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[35mMovie Load (1.4ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY title
+Completed 302 Found in 3ms (ActiveRecord: 1.4ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:09:55 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[36mMovie Load (1.9ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY title[0m
+Completed 302 Found in 3ms (ActiveRecord: 1.9ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:09:55 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[35mMovie Load (1.5ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY title
+Completed 302 Found in 3ms (ActiveRecord: 1.5ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:09:55 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[36mMovie Load (1.5ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY title[0m
+Completed 302 Found in 3ms (ActiveRecord: 1.5ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:09:55 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[35mMovie Load (2.0ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY title
+Completed 302 Found in 3ms (ActiveRecord: 2.0ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:10:11 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[36mMovie Load (1.6ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY title[0m
+Completed 302 Found in 11ms (ActiveRecord: 1.6ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:10:11 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[35mMovie Load (3.0ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY title
+Completed 302 Found in 5ms (ActiveRecord: 3.0ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:10:11 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[36mMovie Load (1.4ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY title[0m
+Completed 302 Found in 3ms (ActiveRecord: 1.4ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:10:11 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[35mMovie Load (3.8ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY title
+Completed 302 Found in 6ms (ActiveRecord: 3.8ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:10:11 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[36mMovie Load (1.6ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY title[0m
+Completed 302 Found in 3ms (ActiveRecord: 1.6ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:10:11 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[35mMovie Load (1.8ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY title
+Completed 302 Found in 4ms (ActiveRecord: 1.8ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:10:11 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[36mMovie Load (2.1ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY title[0m
+Completed 302 Found in 3ms (ActiveRecord: 2.1ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:10:11 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[35mMovie Load (1.8ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY title
+Completed 302 Found in 3ms (ActiveRecord: 1.8ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:10:11 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[36mMovie Load (1.9ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY title[0m
+Completed 302 Found in 4ms (ActiveRecord: 1.9ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:10:11 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[35mMovie Load (1.6ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY title
+Completed 302 Found in 3ms (ActiveRecord: 1.6ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:10:11 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[36mMovie Load (1.6ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY title[0m
+Completed 302 Found in 3ms (ActiveRecord: 1.6ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:10:11 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[35mMovie Load (1.6ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY title
+Completed 302 Found in 3ms (ActiveRecord: 1.6ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:10:11 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[36mMovie Load (1.6ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY title[0m
+Completed 302 Found in 3ms (ActiveRecord: 1.6ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:10:11 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[35mMovie Load (1.6ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY title
+Completed 302 Found in 3ms (ActiveRecord: 1.6ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:10:11 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[36mMovie Load (1.7ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY title[0m
+Completed 302 Found in 3ms (ActiveRecord: 1.7ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:10:11 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[35mMovie Load (1.7ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY title
+Completed 302 Found in 3ms (ActiveRecord: 1.7ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:10:12 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[36mMovie Load (1.7ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY title[0m
+Completed 302 Found in 3ms (ActiveRecord: 1.7ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:10:12 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[35mMovie Load (1.3ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY title
+Completed 302 Found in 3ms (ActiveRecord: 1.3ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:10:12 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[36mMovie Load (1.7ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY title[0m
+Completed 302 Found in 4ms (ActiveRecord: 1.7ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:10:12 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[35mMovie Load (1.9ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY title
+Completed 302 Found in 3ms (ActiveRecord: 1.9ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:10:12 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[36mMovie Load (1.6ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY title[0m
+Completed 302 Found in 3ms (ActiveRecord: 1.6ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:13:02 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[35mMovie Load (1.7ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY title
+Completed 302 Found in 11ms (ActiveRecord: 1.7ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:13:02 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[36mMovie Load (1.7ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY title[0m
+Completed 302 Found in 4ms (ActiveRecord: 1.7ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:13:02 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[35mMovie Load (2.1ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY title
+Completed 302 Found in 4ms (ActiveRecord: 2.1ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:13:02 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[36mMovie Load (1.9ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY title[0m
+Completed 302 Found in 4ms (ActiveRecord: 1.9ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:13:02 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[35mMovie Load (1.5ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY title
+Completed 302 Found in 3ms (ActiveRecord: 1.5ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:13:02 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[36mMovie Load (1.5ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY title[0m
+Completed 302 Found in 3ms (ActiveRecord: 1.5ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:13:02 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[35mMovie Load (2.3ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY title
+Completed 302 Found in 4ms (ActiveRecord: 2.3ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:13:02 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[36mMovie Load (1.6ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY title[0m
+Completed 302 Found in 3ms (ActiveRecord: 1.6ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:13:02 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[35mMovie Load (1.7ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY title
+Completed 302 Found in 3ms (ActiveRecord: 1.7ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:13:02 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[36mMovie Load (1.7ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY title[0m
+Completed 302 Found in 3ms (ActiveRecord: 1.7ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:13:02 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[35mMovie Load (1.6ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY title
+Completed 302 Found in 3ms (ActiveRecord: 1.6ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:13:02 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[36mMovie Load (2.1ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY title[0m
+Completed 302 Found in 4ms (ActiveRecord: 2.1ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:13:02 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[35mMovie Load (1.6ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY title
+Completed 302 Found in 3ms (ActiveRecord: 1.6ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:13:02 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[36mMovie Load (1.6ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY title[0m
+Completed 302 Found in 3ms (ActiveRecord: 1.6ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:13:02 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[35mMovie Load (1.9ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY title
+Completed 302 Found in 4ms (ActiveRecord: 1.9ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:13:02 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[36mMovie Load (1.5ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY title[0m
+Completed 302 Found in 3ms (ActiveRecord: 1.5ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:13:02 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[35mMovie Load (1.9ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY title
+Completed 302 Found in 4ms (ActiveRecord: 1.9ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:13:03 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[36mMovie Load (1.5ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY title[0m
+Completed 302 Found in 3ms (ActiveRecord: 1.5ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:13:03 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[35mMovie Load (1.9ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY title
+Completed 302 Found in 3ms (ActiveRecord: 1.9ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:13:03 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[36mMovie Load (2.0ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY title[0m
+Completed 302 Found in 4ms (ActiveRecord: 2.0ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:13:03 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[35mMovie Load (1.6ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY title
+Completed 302 Found in 3ms (ActiveRecord: 1.6ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:13:14 +0200
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (1.9ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY title[0m
+  Rendered movies/index.html.haml within layouts/application (3.5ms)
+Completed 200 OK in 75ms (Views: 65.0ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.168.178.25 at 2013-10-25 11:13:14 +0200
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.178.25 at 2013-10-25 11:13:14 +0200
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 192.168.178.25 at 2013-10-25 11:13:14 +0200
+Served asset /application.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.178.25 at 2013-10-25 11:13:15 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:13:58 +0200
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (1.5ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY title
+  Rendered movies/index.html.haml within layouts/application (5.5ms)
+Completed 200 OK in 77ms (Views: 66.0ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.178.25 at 2013-10-25 11:13:59 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 192.168.178.25 at 2013-10-25 11:13:59 +0200
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.178.25 at 2013-10-25 11:13:59 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.168.178.25 at 2013-10-25 11:13:59 +0200
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/movies?order=release_date" for 192.168.178.25 at 2013-10-25 11:14:53 +0200
+Processing by MoviesController#index as HTML
+  Parameters: {"order"=>"release_date"}
+  [1m[36mMovie Load (2.4ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY release_date[0m
+  Rendered movies/index.html.haml within layouts/application (4.2ms)
+Completed 200 OK in 72ms (Views: 57.6ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.168.178.25 at 2013-10-25 11:14:53 +0200
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.178.25 at 2013-10-25 11:14:53 +0200
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.178.25 at 2013-10-25 11:14:53 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 192.168.178.25 at 2013-10-25 11:14:53 +0200
+Served asset /application.js - 304 Not Modified (4ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:14:58 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000ab.org
+  [1m[35mMovie Load (1.7ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY release_date
+Completed 302 Found in 3ms (ActiveRecord: 1.7ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:15:18 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000google.org
+  [1m[36mMovie Load (2.1ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY release_date[0m
+Completed 302 Found in 11ms (ActiveRecord: 2.1ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:15:33 +0200
+Processing by MoviesController#index as HTML
+Redirected to httlp://google.con
+  [1m[35mMovie Load (2.1ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY release_date
+Completed 302 Found in 14ms (ActiveRecord: 2.1ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&commit=Refresh" for 192.168.178.25 at 2013-10-25 11:15:35 +0200
+Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "commit"=>"Refresh"}
+Redirected to httlp://google.con
+  [1m[36mMovie Load (1.9ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY release_date[0m
+Completed 302 Found in 3ms (ActiveRecord: 1.9ms)
+
+
+Started GET "/movies?order=title" for 192.168.178.25 at 2013-10-25 11:15:38 +0200
+Processing by MoviesController#index as HTML
+  Parameters: {"order"=>"title"}
+  [1m[35mMovie Load (1.3ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY title
+  Rendered movies/index.html.haml within layouts/application (3.7ms)
+Completed 200 OK in 61ms (Views: 58.3ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.168.178.25 at 2013-10-25 11:15:38 +0200
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.178.25 at 2013-10-25 11:15:38 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.178.25 at 2013-10-25 11:15:38 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 192.168.178.25 at 2013-10-25 11:15:38 +0200
+Served asset /application.js - 304 Not Modified (4ms)
+
+
+Started GET "/movies?order=release_date" for 192.168.178.25 at 2013-10-25 11:15:43 +0200
+Processing by MoviesController#index as HTML
+  Parameters: {"order"=>"release_date"}
+  [1m[36mMovie Load (2.0ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY release_date[0m
+  Rendered movies/index.html.haml within layouts/application (4.4ms)
+Completed 200 OK in 67ms (Views: 63.7ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.168.178.25 at 2013-10-25 11:15:43 +0200
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.178.25 at 2013-10-25 11:15:43 +0200
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.178.25 at 2013-10-25 11:15:43 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 192.168.178.25 at 2013-10-25 11:15:43 +0200
+Served asset /application.js - 304 Not Modified (4ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:15:46 +0200
+Processing by MoviesController#index as HTML
+Redirected to httlp://google.con
+  [1m[35mMovie Load (2.1ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY release_date
+Completed 302 Found in 4ms (ActiveRecord: 2.1ms)
+
+
+Started GET "/movies?order=release_date" for 192.168.178.25 at 2013-10-25 11:15:50 +0200
+Processing by MoviesController#index as HTML
+  Parameters: {"order"=>"release_date"}
+  [1m[36mMovie Load (1.7ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY release_date[0m
+  Rendered movies/index.html.haml within layouts/application (4.9ms)
+Completed 200 OK in 59ms (Views: 56.0ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.168.178.25 at 2013-10-25 11:15:50 +0200
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.178.25 at 2013-10-25 11:15:51 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.178.25 at 2013-10-25 11:15:51 +0200
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 192.168.178.25 at 2013-10-25 11:15:51 +0200
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:16:00 +0200
+Processing by MoviesController#index as HTML
+Redirected to httlp://google.con
+  [1m[35mMovie Load (1.4ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY release_date
+Completed 302 Found in 3ms (ActiveRecord: 1.4ms)
+
+
+Started GET "/movies?order=release_date" for 192.168.178.25 at 2013-10-25 11:16:03 +0200
+Processing by MoviesController#index as HTML
+  Parameters: {"order"=>"release_date"}
+  [1m[36mMovie Load (1.6ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY release_date[0m
+  Rendered movies/index.html.haml within layouts/application (3.8ms)
+Completed 200 OK in 91ms (Views: 88.1ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.168.178.25 at 2013-10-25 11:16:03 +0200
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.178.25 at 2013-10-25 11:16:03 +0200
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.178.25 at 2013-10-25 11:16:03 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 192.168.178.25 at 2013-10-25 11:16:03 +0200
+Served asset /application.js - 304 Not Modified (4ms)
+
+
+Started GET "/movies?order=title" for 192.168.178.25 at 2013-10-25 11:16:17 +0200
+Processing by MoviesController#index as HTML
+  Parameters: {"order"=>"title"}
+  [1m[35mMovie Load (2.0ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY title
+  Rendered movies/index.html.haml within layouts/application (3.8ms)
+Completed 200 OK in 69ms (Views: 56.9ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/application.js?body=1" for 192.168.178.25 at 2013-10-25 11:16:17 +0200
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.178.25 at 2013-10-25 11:16:17 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.178.25 at 2013-10-25 11:16:17 +0200
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.168.178.25 at 2013-10-25 11:16:17 +0200
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:16:22 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://google.con
+  [1m[36mMovie Load (2.1ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY title[0m
+Completed 302 Found in 4ms (ActiveRecord: 2.1ms)
+
+
+Started GET "/movies?order=release_date" for 192.168.178.25 at 2013-10-25 11:16:48 +0200
+Processing by MoviesController#index as HTML
+  Parameters: {"order"=>"release_date"}
+  [1m[35mMovie Load (2.2ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY release_date
+  Rendered movies/index.html.haml within layouts/application (4.1ms)
+Completed 200 OK in 69ms (Views: 59.0ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.178.25 at 2013-10-25 11:16:48 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.178.25 at 2013-10-25 11:16:48 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.168.178.25 at 2013-10-25 11:16:48 +0200
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 192.168.178.25 at 2013-10-25 11:16:48 +0200
+Served asset /application.js - 304 Not Modified (5ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:16:52 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://google.com
+  [1m[36mMovie Load (1.9ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY release_date[0m
+Completed 302 Found in 4ms (ActiveRecord: 1.9ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:17:14 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://kutterstrasse.de
+  [1m[35mMovie Load (1.8ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY release_date
+Completed 302 Found in 11ms (ActiveRecord: 1.8ms)
+
+
+Started GET "/movies?order=release_date" for 192.168.178.25 at 2013-10-25 11:20:56 +0200
+Processing by MoviesController#index as HTML
+  Parameters: {"order"=>"release_date"}
+  [1m[36mMovie Load (1.5ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY release_date[0m
+  Rendered movies/index.html.haml within layouts/application (3.9ms)
+Completed 200 OK in 76ms (Views: 64.7ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/assets/application.js?body=1" for 192.168.178.25 at 2013-10-25 11:20:56 +0200
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.178.25 at 2013-10-25 11:20:56 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.168.178.25 at 2013-10-25 11:20:56 +0200
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.178.25 at 2013-10-25 11:20:56 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:21:02 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[35mMovie Load (2.0ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY release_date
+Completed 302 Found in 5ms (ActiveRecord: 2.0ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:21:02 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[36mMovie Load (1.6ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY release_date[0m
+Completed 302 Found in 3ms (ActiveRecord: 1.6ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:21:02 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[35mMovie Load (1.6ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY release_date
+Completed 302 Found in 3ms (ActiveRecord: 1.6ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:21:02 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[36mMovie Load (1.5ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY release_date[0m
+Completed 302 Found in 3ms (ActiveRecord: 1.5ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:21:02 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[35mMovie Load (1.6ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY release_date
+Completed 302 Found in 3ms (ActiveRecord: 1.6ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:21:02 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[36mMovie Load (1.8ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY release_date[0m
+Completed 302 Found in 4ms (ActiveRecord: 1.8ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:21:02 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[35mMovie Load (1.7ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY release_date
+Completed 302 Found in 3ms (ActiveRecord: 1.7ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:21:02 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[36mMovie Load (1.9ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY release_date[0m
+Completed 302 Found in 4ms (ActiveRecord: 1.9ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:21:02 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[35mMovie Load (2.5ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY release_date
+Completed 302 Found in 4ms (ActiveRecord: 2.5ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:21:02 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[36mMovie Load (2.5ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY release_date[0m
+Completed 302 Found in 5ms (ActiveRecord: 2.5ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:21:02 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[35mMovie Load (1.6ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY release_date
+Completed 302 Found in 3ms (ActiveRecord: 1.6ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:21:02 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[36mMovie Load (1.6ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY release_date[0m
+Completed 302 Found in 3ms (ActiveRecord: 1.6ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:21:02 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[35mMovie Load (2.5ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY release_date
+Completed 302 Found in 4ms (ActiveRecord: 2.5ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:21:03 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[36mMovie Load (2.0ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY release_date[0m
+Completed 302 Found in 3ms (ActiveRecord: 2.0ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:21:03 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[35mMovie Load (2.0ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY release_date
+Completed 302 Found in 3ms (ActiveRecord: 2.0ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:21:03 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[36mMovie Load (1.5ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY release_date[0m
+Completed 302 Found in 3ms (ActiveRecord: 1.5ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:21:03 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[35mMovie Load (1.7ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY release_date
+Completed 302 Found in 3ms (ActiveRecord: 1.7ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:21:03 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[36mMovie Load (1.7ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY release_date[0m
+Completed 302 Found in 3ms (ActiveRecord: 1.7ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:21:03 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[35mMovie Load (2.2ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY release_date
+Completed 302 Found in 4ms (ActiveRecord: 2.2ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:21:03 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[36mMovie Load (1.5ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY release_date[0m
+Completed 302 Found in 3ms (ActiveRecord: 1.5ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:21:03 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[35mMovie Load (1.7ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY release_date
+Completed 302 Found in 3ms (ActiveRecord: 1.7ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:21:05 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[36mMovie Load (1.9ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY release_date[0m
+Completed 302 Found in 4ms (ActiveRecord: 1.9ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:21:05 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[35mMovie Load (2.0ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY release_date
+Completed 302 Found in 3ms (ActiveRecord: 2.0ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:21:05 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[36mMovie Load (2.3ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY release_date[0m
+Completed 302 Found in 4ms (ActiveRecord: 2.3ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:21:05 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[35mMovie Load (1.6ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY release_date
+Completed 302 Found in 4ms (ActiveRecord: 1.6ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:21:05 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[36mMovie Load (1.6ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY release_date[0m
+Completed 302 Found in 3ms (ActiveRecord: 1.6ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:21:05 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[35mMovie Load (1.5ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY release_date
+Completed 302 Found in 3ms (ActiveRecord: 1.5ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:21:05 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[36mMovie Load (1.5ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY release_date[0m
+Completed 302 Found in 3ms (ActiveRecord: 1.5ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:21:05 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[35mMovie Load (3.5ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY release_date
+Completed 302 Found in 6ms (ActiveRecord: 3.5ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:21:05 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[36mMovie Load (1.6ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY release_date[0m
+Completed 302 Found in 3ms (ActiveRecord: 1.6ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:21:05 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[35mMovie Load (1.7ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY release_date
+Completed 302 Found in 3ms (ActiveRecord: 1.7ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:21:05 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[36mMovie Load (1.5ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY release_date[0m
+Completed 302 Found in 3ms (ActiveRecord: 1.5ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:21:05 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[35mMovie Load (1.8ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY release_date
+Completed 302 Found in 3ms (ActiveRecord: 1.8ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:21:05 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[36mMovie Load (1.8ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY release_date[0m
+Completed 302 Found in 3ms (ActiveRecord: 1.8ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:21:05 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[35mMovie Load (1.5ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY release_date
+Completed 302 Found in 3ms (ActiveRecord: 1.5ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:21:05 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[36mMovie Load (1.6ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY release_date[0m
+Completed 302 Found in 3ms (ActiveRecord: 1.6ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:21:05 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[35mMovie Load (1.7ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY release_date
+Completed 302 Found in 3ms (ActiveRecord: 1.7ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:21:05 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[36mMovie Load (2.1ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY release_date[0m
+Completed 302 Found in 4ms (ActiveRecord: 2.1ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:21:05 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[35mMovie Load (1.8ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY release_date
+Completed 302 Found in 4ms (ActiveRecord: 1.8ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:21:05 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[36mMovie Load (1.6ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY release_date[0m
+Completed 302 Found in 3ms (ActiveRecord: 1.6ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:21:05 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[35mMovie Load (1.8ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY release_date
+Completed 302 Found in 3ms (ActiveRecord: 1.8ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:21:05 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[36mMovie Load (1.6ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY release_date[0m
+Completed 302 Found in 3ms (ActiveRecord: 1.6ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:21:06 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[35mMovie Load (1.9ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY release_date
+Completed 302 Found in 4ms (ActiveRecord: 1.9ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:21:06 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[36mMovie Load (1.7ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY release_date[0m
+Completed 302 Found in 3ms (ActiveRecord: 1.7ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:21:06 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[35mMovie Load (1.9ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY release_date
+Completed 302 Found in 4ms (ActiveRecord: 1.9ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:21:06 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[36mMovie Load (1.4ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY release_date[0m
+Completed 302 Found in 3ms (ActiveRecord: 1.4ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:21:06 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[35mMovie Load (1.8ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY release_date
+Completed 302 Found in 3ms (ActiveRecord: 1.8ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:21:06 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[36mMovie Load (1.6ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY release_date[0m
+Completed 302 Found in 3ms (ActiveRecord: 1.6ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:21:06 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[35mMovie Load (1.5ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY release_date
+Completed 302 Found in 3ms (ActiveRecord: 1.5ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:21:06 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[36mMovie Load (1.5ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY release_date[0m
+Completed 302 Found in 3ms (ActiveRecord: 1.5ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:21:06 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[35mMovie Load (1.5ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY release_date
+Completed 302 Found in 3ms (ActiveRecord: 1.5ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:21:06 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[36mMovie Load (1.5ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY release_date[0m
+Completed 302 Found in 3ms (ActiveRecord: 1.5ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:21:06 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[35mMovie Load (1.7ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY release_date
+Completed 302 Found in 3ms (ActiveRecord: 1.7ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:21:06 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[36mMovie Load (1.6ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY release_date[0m
+Completed 302 Found in 3ms (ActiveRecord: 1.6ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:21:06 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[35mMovie Load (1.9ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY release_date
+Completed 302 Found in 3ms (ActiveRecord: 1.9ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:21:06 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[36mMovie Load (1.7ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY release_date[0m
+Completed 302 Found in 3ms (ActiveRecord: 1.7ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:21:06 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[35mMovie Load (1.9ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY release_date
+Completed 302 Found in 3ms (ActiveRecord: 1.9ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:21:06 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[36mMovie Load (2.4ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY release_date[0m
+Completed 302 Found in 4ms (ActiveRecord: 2.4ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:21:06 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[35mMovie Load (2.2ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY release_date
+Completed 302 Found in 5ms (ActiveRecord: 2.2ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:21:07 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[36mMovie Load (1.6ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY release_date[0m
+Completed 302 Found in 3ms (ActiveRecord: 1.6ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:21:07 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[35mMovie Load (1.3ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY release_date
+Completed 302 Found in 3ms (ActiveRecord: 1.3ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:21:07 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[36mMovie Load (1.5ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY release_date[0m
+Completed 302 Found in 3ms (ActiveRecord: 1.5ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:21:07 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[35mMovie Load (1.9ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY release_date
+Completed 302 Found in 4ms (ActiveRecord: 1.9ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:21:40 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[36mMovie Load (2.0ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY release_date[0m
+Completed 302 Found in 14ms (ActiveRecord: 2.0ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:21:40 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[35mMovie Load (1.7ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY release_date
+Completed 302 Found in 4ms (ActiveRecord: 1.7ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:21:40 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[36mMovie Load (2.0ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY release_date[0m
+Completed 302 Found in 4ms (ActiveRecord: 2.0ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:21:40 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[35mMovie Load (1.9ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY release_date
+Completed 302 Found in 3ms (ActiveRecord: 1.9ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:21:40 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[36mMovie Load (1.5ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY release_date[0m
+Completed 302 Found in 3ms (ActiveRecord: 1.5ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:21:40 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[35mMovie Load (1.6ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY release_date
+Completed 302 Found in 4ms (ActiveRecord: 1.6ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:21:40 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[36mMovie Load (1.9ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY release_date[0m
+Completed 302 Found in 3ms (ActiveRecord: 1.9ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:21:40 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[35mMovie Load (1.6ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY release_date
+Completed 302 Found in 4ms (ActiveRecord: 1.6ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:21:41 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[36mMovie Load (1.9ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY release_date[0m
+Completed 302 Found in 3ms (ActiveRecord: 1.9ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:21:41 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[35mMovie Load (1.5ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY release_date
+Completed 302 Found in 3ms (ActiveRecord: 1.5ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:21:41 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[36mMovie Load (1.7ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY release_date[0m
+Completed 302 Found in 3ms (ActiveRecord: 1.7ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:21:41 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[35mMovie Load (1.9ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY release_date
+Completed 302 Found in 3ms (ActiveRecord: 1.9ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:21:41 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[36mMovie Load (1.7ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY release_date[0m
+Completed 302 Found in 3ms (ActiveRecord: 1.7ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:21:41 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[35mMovie Load (1.8ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY release_date
+Completed 302 Found in 3ms (ActiveRecord: 1.8ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:21:41 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[36mMovie Load (1.4ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY release_date[0m
+Completed 302 Found in 3ms (ActiveRecord: 1.4ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:21:41 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[35mMovie Load (2.1ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY release_date
+Completed 302 Found in 4ms (ActiveRecord: 2.1ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:21:41 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[36mMovie Load (1.7ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY release_date[0m
+Completed 302 Found in 3ms (ActiveRecord: 1.7ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:21:41 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[35mMovie Load (1.9ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY release_date
+Completed 302 Found in 3ms (ActiveRecord: 1.9ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:21:41 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[36mMovie Load (2.1ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY release_date[0m
+Completed 302 Found in 4ms (ActiveRecord: 2.1ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:21:41 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[35mMovie Load (1.6ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY release_date
+Completed 302 Found in 3ms (ActiveRecord: 1.6ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:21:41 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[36mMovie Load (1.9ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY release_date[0m
+Completed 302 Found in 3ms (ActiveRecord: 1.9ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:21:41 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[35mMovie Load (1.8ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY release_date
+Completed 302 Found in 3ms (ActiveRecord: 1.8ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:21:41 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[36mMovie Load (1.6ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY release_date[0m
+Completed 302 Found in 3ms (ActiveRecord: 1.6ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:21:41 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[35mMovie Load (1.3ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY release_date
+Completed 302 Found in 3ms (ActiveRecord: 1.3ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:21:41 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[36mMovie Load (1.7ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY release_date[0m
+Completed 302 Found in 4ms (ActiveRecord: 1.7ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:21:41 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[35mMovie Load (1.7ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY release_date
+Completed 302 Found in 3ms (ActiveRecord: 1.7ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:21:41 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[36mMovie Load (1.5ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY release_date[0m
+Completed 302 Found in 3ms (ActiveRecord: 1.5ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:21:41 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[35mMovie Load (1.7ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY release_date
+Completed 302 Found in 3ms (ActiveRecord: 1.7ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:21:41 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[36mMovie Load (1.9ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY release_date[0m
+Completed 302 Found in 3ms (ActiveRecord: 1.9ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:21:41 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[35mMovie Load (2.1ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY release_date
+Completed 302 Found in 4ms (ActiveRecord: 2.1ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:21:41 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[36mMovie Load (1.6ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY release_date[0m
+Completed 302 Found in 3ms (ActiveRecord: 1.6ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:21:42 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[35mMovie Load (1.8ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY release_date
+Completed 302 Found in 3ms (ActiveRecord: 1.8ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:21:42 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[36mMovie Load (1.6ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY release_date[0m
+Completed 302 Found in 3ms (ActiveRecord: 1.6ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:21:42 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[35mMovie Load (1.1ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY release_date
+Completed 302 Found in 2ms (ActiveRecord: 1.1ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:21:42 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[36mMovie Load (1.6ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY release_date[0m
+Completed 302 Found in 3ms (ActiveRecord: 1.6ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:21:42 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[35mMovie Load (1.4ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY release_date
+Completed 302 Found in 3ms (ActiveRecord: 1.4ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:21:42 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[36mMovie Load (2.0ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY release_date[0m
+Completed 302 Found in 4ms (ActiveRecord: 2.0ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:21:42 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[35mMovie Load (1.6ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY release_date
+Completed 302 Found in 3ms (ActiveRecord: 1.6ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:21:42 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[36mMovie Load (1.5ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY release_date[0m
+Completed 302 Found in 3ms (ActiveRecord: 1.5ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:21:42 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[35mMovie Load (1.9ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY release_date
+Completed 302 Found in 4ms (ActiveRecord: 1.9ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:21:42 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[36mMovie Load (1.6ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY release_date[0m
+Completed 302 Found in 3ms (ActiveRecord: 1.6ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:21:42 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies
+  [1m[35mMovie Load (2.2ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY release_date
+Completed 302 Found in 4ms (ActiveRecord: 2.2ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:23:14 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000www.kutterstrasse.de
+  [1m[36mMovie Load (1.5ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY release_date[0m
+Completed 302 Found in 11ms (ActiveRecord: 1.5ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:23:23 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://www.kutterstrasse.de
+  [1m[35mMovie Load (1.8ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY release_date
+Completed 302 Found in 13ms (ActiveRecord: 1.8ms)
+
+
+Started GET "/movies?order=release_date" for 192.168.178.25 at 2013-10-25 11:24:55 +0200
+Processing by MoviesController#index as HTML
+  Parameters: {"order"=>"release_date"}
+  [1m[36mMovie Load (2.9ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY release_date[0m
+  Rendered movies/index.html.haml within layouts/application (4.0ms)
+Completed 200 OK in 71ms (Views: 57.5ms | ActiveRecord: 2.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.168.178.25 at 2013-10-25 11:24:55 +0200
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 192.168.178.25 at 2013-10-25 11:24:55 +0200
+Served asset /application.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.178.25 at 2013-10-25 11:24:55 +0200
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.178.25 at 2013-10-25 11:24:55 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:25:00 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://www.kutterstrasse.de
+  [1m[35mMovie Load (1.6ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY release_date
+Completed 302 Found in 3ms (ActiveRecord: 1.6ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:26:03 +0200
+Processing by MoviesController#index as HTML
+Completed 500 Internal Server Error in 0ms
+
+TypeError (can't convert nil into String):
+  app/controllers/movies_controller.rb:40:in `+'
+  app/controllers/movies_controller.rb:40:in `index'
+
+
+  Rendered /home/saasbook/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.14/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.3ms)
+  Rendered /home/saasbook/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.14/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /home/saasbook/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.14/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.3ms)
+
+
+Started GET "/movies?order=release_date" for 192.168.178.25 at 2013-10-25 11:26:24 +0200
+Processing by MoviesController#index as HTML
+  Parameters: {"order"=>"release_date"}
+  [1m[36mMovie Load (1.9ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY release_date[0m
+  Rendered movies/index.html.haml within layouts/application (4.2ms)
+Completed 200 OK in 71ms (Views: 60.2ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.168.178.25 at 2013-10-25 11:26:25 +0200
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.178.25 at 2013-10-25 11:26:25 +0200
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.178.25 at 2013-10-25 11:26:25 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 192.168.178.25 at 2013-10-25 11:26:25 +0200
+Served asset /application.js - 304 Not Modified (4ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:26:45 +0200
+Processing by MoviesController#index as HTML
+Completed 500 Internal Server Error in 0ms
+
+TypeError (can't convert nil into String):
+  app/controllers/movies_controller.rb:40:in `+'
+  app/controllers/movies_controller.rb:40:in `index'
+
+
+  Rendered /home/saasbook/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.14/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /home/saasbook/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.14/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /home/saasbook/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.14/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (10.3ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:27:01 +0200
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (1.8ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY release_date
+  Rendered movies/index.html.haml within layouts/application (4.2ms)
+Completed 200 OK in 88ms (Views: 76.2ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.168.178.25 at 2013-10-25 11:27:01 +0200
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.178.25 at 2013-10-25 11:27:01 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.178.25 at 2013-10-25 11:27:01 +0200
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 192.168.178.25 at 2013-10-25 11:27:01 +0200
+Served asset /application.js - 304 Not Modified (5ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:27:25 +0200
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (1.3ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY release_date[0m
+  Rendered movies/index.html.haml within layouts/application (4.8ms)
+Completed 200 OK in 85ms (Views: 75.3ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.168.178.25 at 2013-10-25 11:27:25 +0200
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.178.25 at 2013-10-25 11:27:25 +0200
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.178.25 at 2013-10-25 11:27:25 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 192.168.178.25 at 2013-10-25 11:27:25 +0200
+Served asset /application.js - 304 Not Modified (4ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:27:48 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://www.kutterstrasse.de
+  [1m[35mMovie Load (2.1ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY release_date
+Completed 302 Found in 12ms (ActiveRecord: 2.1ms)
+
+
+Started GET "/movies?order=release_date" for 192.168.178.25 at 2013-10-25 11:28:04 +0200
+Processing by MoviesController#index as HTML
+  Parameters: {"order"=>"release_date"}
+  [1m[36mMovie Load (2.7ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY release_date[0m
+  Rendered movies/index.html.haml within layouts/application (5.6ms)
+Completed 200 OK in 78ms (Views: 64.3ms | ActiveRecord: 2.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.168.178.25 at 2013-10-25 11:28:04 +0200
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.178.25 at 2013-10-25 11:28:05 +0200
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 192.168.178.25 at 2013-10-25 11:28:05 +0200
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.178.25 at 2013-10-25 11:28:05 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:28:10 +0200
+Processing by MoviesController#index as HTML
+Completed 404 Not Found in 1ms
+
+ActionController::RoutingError (No route matches {:action=>"show", :controller=>"movies"}):
+  app/controllers/movies_controller.rb:42:in `index'
+
+
+  Rendered /home/saasbook/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.14/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:29:07 +0200
+Processing by MoviesController#index as HTML
+Completed 404 Not Found in 1ms
+
+ActionController::RoutingError (No route matches {:action=>"show", :controller=>"movies"}):
+  app/controllers/movies_controller.rb:42:in `index'
+
+
+  Rendered /home/saasbook/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.14/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:29:11 +0200
+Processing by MoviesController#index as HTML
+Completed 404 Not Found in 1ms
+
+ActionController::RoutingError (No route matches {:action=>"show", :controller=>"movies"}):
+  app/controllers/movies_controller.rb:42:in `index'
+
+
+  Rendered /home/saasbook/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.14/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:29:40 +0200
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (1.9ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY release_date
+  Rendered movies/index.html.haml within layouts/application (4.0ms)
+Completed 200 OK in 71ms (Views: 60.3ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.168.178.25 at 2013-10-25 11:29:41 +0200
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.178.25 at 2013-10-25 11:29:41 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.178.25 at 2013-10-25 11:29:41 +0200
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 192.168.178.25 at 2013-10-25 11:29:41 +0200
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:29:47 +0200
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (1.9ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY release_date[0m
+  Rendered movies/index.html.haml within layouts/application (1.0ms)
+Completed 200 OK in 64ms (Views: 61.0ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.168.178.25 at 2013-10-25 11:29:47 +0200
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.178.25 at 2013-10-25 11:29:47 +0200
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.178.25 at 2013-10-25 11:29:47 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 192.168.178.25 at 2013-10-25 11:29:47 +0200
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:30:11 +0200
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (1.4ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY release_date
+  Rendered movies/index.html.haml within layouts/application (4.0ms)
+Completed 200 OK in 72ms (Views: 61.8ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.168.178.25 at 2013-10-25 11:30:11 +0200
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.178.25 at 2013-10-25 11:30:11 +0200
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 192.168.178.25 at 2013-10-25 11:30:11 +0200
+Served asset /application.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.178.25 at 2013-10-25 11:30:11 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:30:30 +0200
+Processing by MoviesController#index as HTML
+Completed 404 Not Found in 1ms
+
+ActionController::RoutingError (No route matches {:action=>"show", :controller=>"movies"}):
+  app/controllers/movies_controller.rb:42:in `index'
+
+
+  Rendered /home/saasbook/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.14/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.9ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:33:13 +0200
+Processing by MoviesController#index as HTML
+Completed 404 Not Found in 1ms
+
+ActionController::RoutingError (No route matches {:controller=>"movies", :order=>"release_date"}):
+  app/controllers/movies_controller.rb:42:in `index'
+
+
+  Rendered /home/saasbook/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.14/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:38:27 +0200
+Processing by MoviesController#index as HTML
+Completed 404 Not Found in 2ms
+
+ActionController::RoutingError (No route matches {:action=>"show", :controller=>"movies", :order=>"release_date"}):
+  app/controllers/movies_controller.rb:42:in `index'
+
+
+  Rendered /home/saasbook/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.14/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:38:56 +0200
+Processing by MoviesController#index as HTML
+Completed 404 Not Found in 1ms
+
+ActionController::RoutingError (No route matches {:action=>"show", :controller=>"movies"}):
+  app/controllers/movies_controller.rb:42:in `index'
+
+
+  Rendered /home/saasbook/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.14/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.9ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:39:14 +0200
+Processing by MoviesController#index as HTML
+Completed 404 Not Found in 2ms
+
+ActionController::RoutingError (No route matches {:controller=>"movies", :order=>"release_date"}):
+  app/controllers/movies_controller.rb:42:in `index'
+
+
+  Rendered /home/saasbook/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.14/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.1ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:39:27 +0200
+Processing by MoviesController#index as HTML
+Completed 404 Not Found in 1ms
+
+ActionController::RoutingError (No route matches {:action=>"show", :controller=>"movies"}):
+  app/controllers/movies_controller.rb:42:in `index'
+
+
+  Rendered /home/saasbook/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.14/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.8ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:39:43 +0200
+Processing by MoviesController#index as HTML
+Completed 404 Not Found in 1ms
+
+ActionController::RoutingError (No route matches {:action=>"show", :controller=>"movies", :order=>"release_date"}):
+  app/controllers/movies_controller.rb:42:in `index'
+
+
+  Rendered /home/saasbook/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.14/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (3.4ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:42:57 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies?order=release_date
+  [1m[36mMovie Load (2.0ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY release_date[0m
+Completed 302 Found in 10ms (ActiveRecord: 2.0ms)
+
+
+Started GET "/movies?order=release_date" for 192.168.178.25 at 2013-10-25 11:42:57 +0200
+Processing by MoviesController#index as HTML
+  Parameters: {"order"=>"release_date"}
+  [1m[35mMovie Load (1.6ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY release_date
+  Rendered movies/index.html.haml within layouts/application (4.0ms)
+Completed 200 OK in 87ms (Views: 84.4ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.178.25 at 2013-10-25 11:42:57 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.168.178.25 at 2013-10-25 11:42:57 +0200
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.178.25 at 2013-10-25 11:42:57 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 192.168.178.25 at 2013-10-25 11:42:57 +0200
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/movies?order=release_date" for 192.168.178.25 at 2013-10-25 11:43:23 +0200
+Processing by MoviesController#index as HTML
+  Parameters: {"order"=>"release_date"}
+  [1m[36mMovie Load (1.6ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY release_date[0m
+  Rendered movies/index.html.haml within layouts/application (3.8ms)
+Completed 200 OK in 72ms (Views: 61.9ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.178.25 at 2013-10-25 11:43:24 +0200
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.168.178.25 at 2013-10-25 11:43:24 +0200
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.178.25 at 2013-10-25 11:43:24 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 192.168.178.25 at 2013-10-25 11:43:24 +0200
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:43:31 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies?order=release_date
+  [1m[35mMovie Load (2.0ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY release_date
+Completed 302 Found in 4ms (ActiveRecord: 2.0ms)
+
+
+Started GET "/movies?order=release_date" for 192.168.178.25 at 2013-10-25 11:43:32 +0200
+Processing by MoviesController#index as HTML
+  Parameters: {"order"=>"release_date"}
+  [1m[36mMovie Load (1.5ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY release_date[0m
+  Rendered movies/index.html.haml within layouts/application (5.5ms)
+Completed 200 OK in 62ms (Views: 59.7ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.168.178.25 at 2013-10-25 11:43:32 +0200
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.178.25 at 2013-10-25 11:43:32 +0200
+Served asset /jquery.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.178.25 at 2013-10-25 11:43:32 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 192.168.178.25 at 2013-10-25 11:43:32 +0200
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/movies?order=title" for 192.168.178.25 at 2013-10-25 11:43:36 +0200
+Processing by MoviesController#index as HTML
+  Parameters: {"order"=>"title"}
+  [1m[35mMovie Load (1.6ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY title
+  Rendered movies/index.html.haml within layouts/application (3.9ms)
+Completed 200 OK in 61ms (Views: 58.0ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.168.178.25 at 2013-10-25 11:43:37 +0200
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.178.25 at 2013-10-25 11:43:37 +0200
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.178.25 at 2013-10-25 11:43:37 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 192.168.178.25 at 2013-10-25 11:43:37 +0200
+Served asset /application.js - 304 Not Modified (4ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:43:43 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies?order=title
+  [1m[36mMovie Load (1.7ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY title[0m
+Completed 302 Found in 4ms (ActiveRecord: 1.7ms)
+
+
+Started GET "/movies?order=title" for 192.168.178.25 at 2013-10-25 11:43:43 +0200
+Processing by MoviesController#index as HTML
+  Parameters: {"order"=>"title"}
+  [1m[35mMovie Load (1.7ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY title
+  Rendered movies/index.html.haml within layouts/application (3.9ms)
+Completed 200 OK in 56ms (Views: 53.5ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.168.178.25 at 2013-10-25 11:43:43 +0200
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.178.25 at 2013-10-25 11:43:43 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.178.25 at 2013-10-25 11:43:43 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 192.168.178.25 at 2013-10-25 11:43:43 +0200
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/movies?order=title" for 192.168.178.25 at 2013-10-25 11:49:18 +0200
+Processing by MoviesController#index as HTML
+  Parameters: {"order"=>"title"}
+  [1m[36mMovie Load (2.1ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY title[0m
+  Rendered movies/index.html.haml within layouts/application (3.7ms)
+Completed 200 OK in 98ms (Views: 87.1ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/assets/application.js?body=1" for 192.168.178.25 at 2013-10-25 11:49:18 +0200
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.178.25 at 2013-10-25 11:49:18 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.178.25 at 2013-10-25 11:49:18 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.168.178.25 at 2013-10-25 11:49:18 +0200
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings%5BG%5D=1&ratings%5BPG%5D=1&commit=Refresh" for 192.168.178.25 at 2013-10-25 11:49:22 +0200
+Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "ratings"=>{"G"=>"1", "PG"=>"1"}, "commit"=>"Refresh"}
+Redirected to http://192.168.178.20:3000/movies?commit=Refresh&order=title&ratings%5BG%5D=1&ratings%5BPG%5D=1&utf8=%E2%9C%93
+  [1m[35mMovie Load (1.7ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY title
+Completed 302 Found in 3ms (ActiveRecord: 1.7ms)
+
+
+Started GET "/movies?commit=Refresh&order=title&ratings%5BG%5D=1&ratings%5BPG%5D=1&utf8=%E2%9C%93" for 192.168.178.25 at 2013-10-25 11:49:22 +0200
+Processing by MoviesController#index as HTML
+  Parameters: {"commit"=>"Refresh", "order"=>"title", "ratings"=>{"G"=>"1", "PG"=>"1"}, "utf8"=>"✓"}
+  [1m[36mMovie Load (1.6ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY title[0m
+  Rendered movies/index.html.haml within layouts/application (4.5ms)
+Completed 200 OK in 59ms (Views: 56.6ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.168.178.25 at 2013-10-25 11:49:22 +0200
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.178.25 at 2013-10-25 11:49:22 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.178.25 at 2013-10-25 11:49:22 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 192.168.178.25 at 2013-10-25 11:49:22 +0200
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/movies?commit=Refresh&order=title" for 192.168.178.25 at 2013-10-25 11:49:43 +0200
+Processing by MoviesController#index as HTML
+  Parameters: {"commit"=>"Refresh", "order"=>"title"}
+  [1m[35mMovie Load (1.9ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY title
+  Rendered movies/index.html.haml within layouts/application (3.8ms)
+Completed 200 OK in 61ms (Views: 58.2ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.178.25 at 2013-10-25 11:49:43 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.178.25 at 2013-10-25 11:49:43 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 192.168.178.25 at 2013-10-25 11:49:43 +0200
+Served asset /application.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.168.178.25 at 2013-10-25 11:49:43 +0200
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/movies?commit=Refresh&order=title" for 192.168.178.25 at 2013-10-25 11:49:50 +0200
+Processing by MoviesController#index as HTML
+  Parameters: {"commit"=>"Refresh", "order"=>"title"}
+Redirected to http://192.168.178.20:3000/movies?commit=Refresh&order=title&ratings%5B%5D=G&ratings%5B%5D=PG
+  [1m[36mMovie Load (2.3ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY title[0m
+Completed 302 Found in 14ms (ActiveRecord: 2.3ms)
+
+
+Started GET "/movies?commit=Refresh&order=title&ratings%5B%5D=G&ratings%5B%5D=PG" for 192.168.178.25 at 2013-10-25 11:49:51 +0200
+Processing by MoviesController#index as HTML
+  Parameters: {"commit"=>"Refresh", "order"=>"title", "ratings"=>["G", "PG"]}
+Completed 500 Internal Server Error in 0ms
+
+NoMethodError (undefined method `keys' for ["G", "PG"]:Array):
+  app/controllers/movies_controller.rb:26:in `index'
+
+
+  Rendered /home/saasbook/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.14/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /home/saasbook/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.14/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /home/saasbook/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.14/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.9ms)
+
+
+Started GET "/movies?order=title" for 192.168.178.25 at 2013-10-25 11:51:30 +0200
+Processing by MoviesController#index as HTML
+  Parameters: {"order"=>"title"}
+Redirected to http://192.168.178.20:3000/movies?order=title&ratings%5BG%5D=1&ratings%5BPG%5D=1
+  [1m[35mMovie Load (3.1ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY title
+Completed 302 Found in 13ms (ActiveRecord: 3.1ms)
+
+
+Started GET "/movies?order=title&ratings%5BG%5D=1&ratings%5BPG%5D=1" for 192.168.178.25 at 2013-10-25 11:51:30 +0200
+Processing by MoviesController#index as HTML
+  Parameters: {"order"=>"title", "ratings"=>{"G"=>"1", "PG"=>"1"}}
+  [1m[36mMovie Load (1.8ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY title[0m
+  Rendered movies/index.html.haml within layouts/application (3.8ms)
+Completed 200 OK in 63ms (Views: 59.4ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.168.178.25 at 2013-10-25 11:51:30 +0200
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.178.25 at 2013-10-25 11:51:30 +0200
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 192.168.178.25 at 2013-10-25 11:51:30 +0200
+Served asset /application.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.178.25 at 2013-10-25 11:51:30 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:51:42 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies?order=title&ratings%5BG%5D=1&ratings%5BPG%5D=1
+  [1m[35mMovie Load (1.9ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY title
+Completed 302 Found in 4ms (ActiveRecord: 1.9ms)
+
+
+Started GET "/movies?order=title&ratings%5BG%5D=1&ratings%5BPG%5D=1" for 192.168.178.25 at 2013-10-25 11:51:42 +0200
+Processing by MoviesController#index as HTML
+  Parameters: {"order"=>"title", "ratings"=>{"G"=>"1", "PG"=>"1"}}
+  [1m[36mMovie Load (1.9ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY title[0m
+  Rendered movies/index.html.haml within layouts/application (4.2ms)
+Completed 200 OK in 90ms (Views: 87.0ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.168.178.25 at 2013-10-25 11:51:42 +0200
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.178.25 at 2013-10-25 11:51:42 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.178.25 at 2013-10-25 11:51:42 +0200
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 192.168.178.25 at 2013-10-25 11:51:42 +0200
+Served asset /application.js - 304 Not Modified (4ms)
+
+
+Started GET "/movies?order=title&ratings%5BG%5D=1&ratings%5BPG%5D=1" for 192.168.178.25 at 2013-10-25 11:52:57 +0200
+Processing by MoviesController#index as HTML
+  Parameters: {"order"=>"title", "ratings"=>{"G"=>"1", "PG"=>"1"}}
+  [1m[35mMovie Load (1.6ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG') ORDER BY title
+  Rendered movies/index.html.haml within layouts/application (3.8ms)
+Completed 200 OK in 67ms (Views: 63.6ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.168.178.25 at 2013-10-25 11:52:57 +0200
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.178.25 at 2013-10-25 11:52:57 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 192.168.178.25 at 2013-10-25 11:52:57 +0200
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.178.25 at 2013-10-25 11:52:57 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings%5BG%5D=1&ratings%5BPG%5D=1&ratings%5BR%5D=1&commit=Refresh" for 192.168.178.25 at 2013-10-25 11:53:03 +0200
+Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "ratings"=>{"G"=>"1", "PG"=>"1", "R"=>"1"}, "commit"=>"Refresh"}
+Redirected to http://192.168.178.20:3000/movies?commit=Refresh&order=title&ratings%5BG%5D=1&ratings%5BPG%5D=1&ratings%5BR%5D=1&utf8=%E2%9C%93
+  [1m[36mMovie Load (1.9ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG', 'R') ORDER BY title[0m
+Completed 302 Found in 4ms (ActiveRecord: 1.9ms)
+
+
+Started GET "/movies?commit=Refresh&order=title&ratings%5BG%5D=1&ratings%5BPG%5D=1&ratings%5BR%5D=1&utf8=%E2%9C%93" for 192.168.178.25 at 2013-10-25 11:53:03 +0200
+Processing by MoviesController#index as HTML
+  Parameters: {"commit"=>"Refresh", "order"=>"title", "ratings"=>{"G"=>"1", "PG"=>"1", "R"=>"1"}, "utf8"=>"✓"}
+  [1m[35mMovie Load (1.7ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG', 'R') ORDER BY title
+  Rendered movies/index.html.haml within layouts/application (4.2ms)
+Completed 200 OK in 67ms (Views: 64.4ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.168.178.25 at 2013-10-25 11:53:03 +0200
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 192.168.178.25 at 2013-10-25 11:53:03 +0200
+Served asset /application.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.178.25 at 2013-10-25 11:53:03 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.178.25 at 2013-10-25 11:53:03 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/movies?order=release_date" for 192.168.178.25 at 2013-10-25 11:53:05 +0200
+Processing by MoviesController#index as HTML
+  Parameters: {"order"=>"release_date"}
+Redirected to http://192.168.178.20:3000/movies?order=release_date&ratings%5BG%5D=1&ratings%5BPG%5D=1&ratings%5BR%5D=1
+  [1m[36mMovie Load (1.6ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG', 'R') ORDER BY release_date[0m
+Completed 302 Found in 4ms (ActiveRecord: 1.6ms)
+
+
+Started GET "/movies?order=release_date&ratings%5BG%5D=1&ratings%5BPG%5D=1&ratings%5BR%5D=1" for 192.168.178.25 at 2013-10-25 11:53:05 +0200
+Processing by MoviesController#index as HTML
+  Parameters: {"order"=>"release_date", "ratings"=>{"G"=>"1", "PG"=>"1", "R"=>"1"}}
+  [1m[35mMovie Load (1.9ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG', 'R') ORDER BY release_date
+  Rendered movies/index.html.haml within layouts/application (3.7ms)
+Completed 200 OK in 62ms (Views: 59.3ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.168.178.25 at 2013-10-25 11:53:05 +0200
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 192.168.178.25 at 2013-10-25 11:53:05 +0200
+Served asset /application.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.178.25 at 2013-10-25 11:53:05 +0200
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.178.25 at 2013-10-25 11:53:05 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 11:53:14 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies?order=release_date&ratings%5BG%5D=1&ratings%5BPG%5D=1&ratings%5BR%5D=1
+  [1m[36mMovie Load (1.7ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG', 'R') ORDER BY release_date[0m
+Completed 302 Found in 4ms (ActiveRecord: 1.7ms)
+
+
+Started GET "/movies?order=release_date&ratings%5BG%5D=1&ratings%5BPG%5D=1&ratings%5BR%5D=1" for 192.168.178.25 at 2013-10-25 11:53:14 +0200
+Processing by MoviesController#index as HTML
+  Parameters: {"order"=>"release_date", "ratings"=>{"G"=>"1", "PG"=>"1", "R"=>"1"}}
+  [1m[35mMovie Load (1.9ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG', 'R') ORDER BY release_date
+  Rendered movies/index.html.haml within layouts/application (4.5ms)
+Completed 200 OK in 63ms (Views: 59.7ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.168.178.25 at 2013-10-25 11:53:14 +0200
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.178.25 at 2013-10-25 11:53:14 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.178.25 at 2013-10-25 11:53:14 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 192.168.178.25 at 2013-10-25 11:53:14 +0200
+Served asset /application.js - 304 Not Modified (5ms)
+
+
+Started GET "/movies" for 192.168.178.25 at 2013-10-25 12:05:53 +0200
+Processing by MoviesController#index as HTML
+Redirected to http://192.168.178.20:3000/movies?order=release_date&ratings%5BG%5D=1&ratings%5BPG%5D=1&ratings%5BR%5D=1
+  [1m[36mMovie Load (2.2ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG', 'R') ORDER BY release_date[0m
+Completed 302 Found in 5ms (ActiveRecord: 2.2ms)
+
+
+Started GET "/movies?order=release_date&ratings%5BG%5D=1&ratings%5BPG%5D=1&ratings%5BR%5D=1" for 192.168.178.25 at 2013-10-25 12:05:54 +0200
+Processing by MoviesController#index as HTML
+  Parameters: {"order"=>"release_date", "ratings"=>{"G"=>"1", "PG"=>"1", "R"=>"1"}}
+  [1m[35mMovie Load (1.5ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG', 'R') ORDER BY release_date
+  Rendered movies/index.html.haml within layouts/application (4.1ms)
+Completed 200 OK in 61ms (Views: 58.5ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.168.178.25 at 2013-10-25 12:05:54 +0200
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.178.25 at 2013-10-25 12:05:54 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 192.168.178.25 at 2013-10-25 12:05:54 +0200
+Served asset /application.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.178.25 at 2013-10-25 12:05:58 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/movies?order=release_date&ratings%5BG%5D=1&ratings%5BPG%5D=1&ratings%5BR%5D=1" for 192.168.178.25 at 2013-10-25 12:06:16 +0200
+Processing by MoviesController#index as HTML
+  Parameters: {"order"=>"release_date", "ratings"=>{"G"=>"1", "PG"=>"1", "R"=>"1"}}
+  [1m[36mMovie Load (2.0ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG', 'R') ORDER BY release_date[0m
+  Rendered movies/index.html.haml within layouts/application (4.6ms)
+Completed 200 OK in 74ms (Views: 63.6ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.168.178.25 at 2013-10-25 12:06:16 +0200
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.168.178.25 at 2013-10-25 12:06:16 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 192.168.178.25 at 2013-10-25 12:06:16 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 192.168.178.25 at 2013-10-25 12:06:16 +0200
+Served asset /application.js - 304 Not Modified (3ms)
